@@ -30,7 +30,7 @@ class MysticBall:
         self= words
     def __call__(self):
         return choice(self)
-#2 дня пытался этот__find__отработать/ без него работет в лёт
+#2 дня пытался этот__call__отработать/ без него работет в лёт
 xx=('Да', 'Нет', 'Наверное')
 print(choice(xx))
 #
